@@ -1,0 +1,26 @@
+{
+  "name": "chatprogetto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fra0Monta/ChatProgetto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fra0Monta/ChatProgetto/issues"
+  },
+  "homepage": "https://github.com/Fra0Monta/ChatProgetto#readme",
+  "dependencies": {
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "netlify-lambda": "^2.0.8",
+    "serverless-http": "^2.7.0"
+  }
+}
