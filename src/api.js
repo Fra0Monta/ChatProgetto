@@ -16,3 +16,4 @@ const router = express.Router();
 
 module.exports = app;
 module.exports.handler= serverless(app);  //Qui è dove esportiamo le nostre funzioni per netlify
+

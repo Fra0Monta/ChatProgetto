@@ -1,0 +1,17 @@
+
+<form #myForm="ngForm" (submit)="sendMessage(myForm.value)" novalidate>
+
+    <label>USERNAME:</label>
+      <input type="text" id="user"  [(ngModel)]="user" name="user">
+      <hr>
+      <input type="text" id="message"  [(ngModel)]="message" name="message">
+  
+      <button type="submit" >SEND MESSAGE</button>
+   </form><!-- Form ends -->
+   <button type="submit" (click) = sendKey() >SEND KEY</button>
+  
+   <hr>
+  
+  <div *ngFor="let message of messageList">
+      user:{{message.user}}={{message.message}}
+  </div>
